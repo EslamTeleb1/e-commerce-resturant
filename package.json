@@ -4,8 +4,14 @@
   "description": "e-commerce website by mearn stack",
   "main": "server.js",
   "scripts": {
+    "dev" : "nodemon server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "islam-tolab",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^6.8.2",
+    "nodemon": "^2.0.20"
+  }
 }
